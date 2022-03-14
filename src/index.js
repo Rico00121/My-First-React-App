@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import Counter from "./components/counter";
 import Hello from "./components/newC";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 //引入css
 import "./css/index.css";
 
