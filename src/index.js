@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import Counter from "./components/counter";
+import Hello from "./components/newC";
 //引入css
 import "./css/index.css";
 
@@ -36,6 +37,7 @@ const body = (
     {func()}
     {loadData()}
     {list}
+    <Hello />
   </h1>
 );
 
